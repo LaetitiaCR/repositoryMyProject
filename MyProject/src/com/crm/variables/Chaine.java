@@ -11,7 +11,17 @@ public class Chaine {
 		
 		System.out.println("Le ciel est de la couleur  " + NOM_COULEUR_UN + " " + NOM_COULEUR_DEUX + " " + NOM_COULEUR_TROIS);
 		
+		
+		/**		
+		*
+		*	@return
+		*		la variable NomCouleur reçoit la valeur de la constante NOM_COULEUR_UN qui est bleu
+		*		qui est retourner par la méthode
+		* 
+		*/
+		
 		String nomCouleur = NOM_COULEUR_UN;
+		
 		return nomCouleur;
 		
 	}
