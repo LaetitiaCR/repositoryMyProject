@@ -4,26 +4,23 @@ import com.crm.variables.Chaine;
 import com.crm.variables.StringToTab;
 import com.crm.variables.TabStringToNumber;
 
+/**
+ * @author Laëtitia
+ *
+ */
 public class Application {
+	
+	
+	
 
+	
+	/**
+	 * @param affiche le couleur indiquée dans la constante NOM_COULEUR_UN du paquage com.crm.variables et de la classe Chaine;
+	 */
 	public static void main(String[] args) {
 		
 		
-		
-/**		
-		*	@param
-		*
-		*	@return
-		*	@throws
-		*	@author
-		*		Laetitia
-		*	@version
-		*	@see
-		*	@since
-		*	@serial
-		*	@deprecated
-*/
-		
+
 	
 		String NameCouleur = Chaine.afficheNomCouleur();
 		System.out.println("Le ciel est toujours " + NameCouleur);
@@ -70,11 +67,7 @@ public class Application {
 		System.out.println(moyenneTabInt/tabLine.length);
 		//System.out.println(nb1TabLine + nb2TabLine);
 		
-		/**		
-		*	@param
-		*		affiche le couleur indiquée dans la constante NOM_COULEUR_UN du paquage com.crm.variables et de la classe Chaine;
-		*	
-		*/
+		
 		System.out.println(Chaine.NOM_COULEUR_UN);
 		
 		
